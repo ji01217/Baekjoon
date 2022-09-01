@@ -1,9 +1,10 @@
 # 입력
 N, score, P = map(int, input().split())
+
+# 풀이
 if N:
     lst = list(map(int, input().split()))
 
-    # 풀이
     if N == P and lst[-1] >= score:
         print(-1)
     else:
